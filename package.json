@@ -1,0 +1,14 @@
+{
+  "name": "bio-discord",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Discord bio site deployed with Cloudflare Workers Static Assets",
+  "scripts": {
+    "dev": "wrangler dev",
+    "check": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.151.3"
+  }
+}
